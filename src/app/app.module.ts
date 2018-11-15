@@ -8,7 +8,6 @@ import { NgSelectModule } from '@ng-select/ng-select';
 
 import { AppComponent } from './app.component';
 import { SelectSearchComponent } from './examples/search.component';
-import { DataService } from './shared/data.service';
 
 export const appRoutes: Routes = [
     {
@@ -33,9 +32,6 @@ export const appRoutes: Routes = [
                 useHash: true
             }
         )
-    ],
-    providers: [
-        DataService,
     ],
     declarations: [
         AppComponent,
