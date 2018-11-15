@@ -12,7 +12,7 @@ import { SelectSearchComponent } from './examples/search.component';
 export const appRoutes: Routes = [
     {
         path: '',
-        redirectTo: '/data-sources',
+        redirectTo: '/filter',
         pathMatch: 'full'
     },
     { path: 'filter', component: SelectSearchComponent, data: { title: 'Filter and autocomplete', fileName: 'search.component.ts' } },
